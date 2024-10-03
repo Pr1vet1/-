@@ -1,0 +1,147 @@
+
+.box {
+background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(90, 89, 89));
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+  
+}
+.logo {
+}
+.logo__image {
+  width: 140px;
+  height: 100px;
+  margin-top: 30px;
+}
+.nav {
+  margin-top: 60px;
+}
+.nav__link {
+  font-size: 20px;
+  margin-left: 45px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.nav__link:first-child{
+  margin-left: 0px;
+}
+.contsct {
+  margin-top: 50px;
+
+}
+.contact__icon {
+
+}
+.contact__icon-image{
+  width: 50px;
+  height: 50px;
+}
+
+.container {
+  margin: 60px 200px;
+}
+.main__zag {
+  text-align: center;
+  font-size: 23px;
+}
+
+.main__home{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.main__me-photo img {
+width: 450px;
+height: 250px;
+
+}
+
+.main_text {
+  margin-left: 70px;
+  font-size: 17px;
+  letter-spacing: 20%;
+  line-height: 130%;
+}
+
+
+.work{
+margin-top: 120px;
+}
+
+.work__text{
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.work__grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.work__grid-photo{
+width: 300px;
+height: 200px;
+}
+.work__grid-buttom{
+  width: 100px;
+  height: 20px;
+  background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(90, 89, 89));
+  color: aliceblue;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main__next{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__next-zag{
+text-align: center;
+margin: 100px 0 60px 0;
+}
+
+.main__next-info{
+  font-size: 17px;
+  letter-spacing: 20%;
+  line-height: 130%;
+  margin-right: 70px;
+}
+
+.main__silovie {
+  font-size: 30px;
+}
+
+.main__gymbro {
+text-align: center;
+font-size: 25px;
+text-transform: uppercase;
+}
+.main__gymbro-photo {
+  width: 400px;
+  height: 300px;
+}
+.footer {
+  display: flex;
+  height: 150px;
+  background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(90, 89, 89));
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  font-size: 25px;
+}
