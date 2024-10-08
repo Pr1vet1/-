@@ -1,0 +1,109 @@
+*{margin: 0;
+padding: 0;
+text-decoration: none;
+}
+
+.box{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 0 20px 0;
+}
+
+.header__logo{
+    margin-left: 70px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.header__nav-contact{
+    margin-right: 40px;
+}
+
+
+.header__nav-link{
+    font-size: 20px;
+    margin-left: 80px;
+    color:black;
+}
+.header__nav-link:first-child{
+margin-left: 0;
+}
+
+.contact__link-img{
+    width: 60px;
+    height: 60px;
+}
+
+.main{
+
+    background: linear-gradient(to bottom right, rgb(218, 215, 215), rgb(255, 255, 255));
+    padding: 50px 200px 0 200px;
+
+
+
+}
+
+.about__zag{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__text{
+    font-size: 25px;
+}
+
+.about__photo-img{
+    width: 300px;
+    height: 400px;
+}
+
+.spisok{
+    margin-top: 120px;
+}
+
+.spisok__zag{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px; 
+}
+
+.spisok__me-text{
+    font-size: 20px;
+}
+
+.spisok__me-text:hover{
+    font-size: 25px;
+    transition: .55s;
+}
+
+.work{
+    margin-top: 100px;
+}
+
+
+.object__photo-img{
+    width: 200px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+.footer{
+    padding: 40px 0 40px 0;
+    text-align: center;
+    font-size: 25px;
+}
