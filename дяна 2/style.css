@@ -63,13 +63,92 @@
 
 
 .main {
+    margin: 0 150px;
+
 }
 
+.me{
+    margin-top: 130px;
+}
+
+.me__rom {
+    margin-top: 80px;
+    display: flex;
+    justify-content:space-between;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.me__rom p{
+    margin-top: 150px;
+    font-size: 25px;
+}
+
+.me__rom-img{
+    width: 370px;
+    height: 500px;
+    margin-left: 250px;
+}
+
+.uslygi {
+    margin-top: 120px;
+}
+
+.uslygi__viski {
+display: flex;
+
+}
+
+.uslygi__viski-img{
+    height: 350px;
+    width: 250px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+ul{
+
+    margin: 50px 0 0 150px;
+}
+
+li{
+    font-size: 25px;
+    
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
 
 .footer {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background: linear-gradient(to top right , rgba(138, 126, 126, 0.865), rgb(112, 83, 83));
+}
+
+.footer__box{
+    text-align: center;
 }
 
 
+.footer__box p {
+    font-size: 20px;
+
+}
 
 .work__first{
     display: flex;
@@ -88,4 +167,11 @@
 
 .work {
     margin-top: 120px;
+}
+
+
+.work__object-link{
+    text-align: center;
+    font-size: 23px;
+    
 }
